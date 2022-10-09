@@ -17,7 +17,7 @@ def merge_sort(data) -> None:
         data[k] = right[j]
         j += 1
       k += 1
-    while i < len(left_array):
+     while i < len(left_array):
       data[k] = left_array[i]
       i += 1
       k += 1
