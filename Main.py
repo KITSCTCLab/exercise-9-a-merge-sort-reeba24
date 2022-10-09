@@ -10,7 +10,9 @@ def merge_sort(data) -> None:
     merge_sort(left)
     merge_sort(right)
     
-    i,j,k=0
+    i=0
+    j=0
+    k=0
     
     while i < len(left) and j < len(right):
       if left[i] <= right[j]:
