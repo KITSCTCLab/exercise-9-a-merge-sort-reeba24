@@ -8,7 +8,7 @@ def merge_sort(data) -> None:
     right_array = data[mid:]
     merge_sort(left)
     merge_sort(right)
-    i,j,k=1
+    i,j,k=0
     while i < len(left) and j < len(right):
       if left[i] <= right[j]:
         data[k] = left[i]
